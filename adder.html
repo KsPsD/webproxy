@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script>
+        let val = document.getElementById('A').value;
+        console.log(val)
+    </script>
+
+</head>
+
+<body>
+
+
+    <form action="/cgi-bin/adder" method="get">
+        <div>
+            <label for="A">Val A:</label>
+            <input type="text" id="A" name="A" />
+        </div>
+        <div>
+            <label for="B">Val B:</label>
+            <input type="text" id="B" name="B" />
+        </div>
+
+
+
+        <div class=" button">
+            <button type="submit">submit calc</button>
+        </div>
+    </form>
+</body>
+
+</html>
